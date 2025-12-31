@@ -1,0 +1,87 @@
+1.#include <stdio.h>
+void main() {
+
+    printf("Hello world");
+}
+OUTPUT:
+Hello world
+2.#include<stdio.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    printf("value of a is:%d",a);
+
+}
+OUTPUT:
+18
+18
+3.#include <stdio.h>
+void main() {
+    char alphabet;
+    scanf("%c",&alphabet);
+    printf("the letter is %c",alphabet);
+   
+
+   
+}
+OUTPUT:
+d
+the letter is d
+4.#include <stdio.h>
+void main() {
+    float decimal;
+    scanf("%f",&decimal);
+    printf("the point number is %f",decimal);
+}
+OUTPUT:
+1.25
+the point number is 1.250000
+5.#include<stdio.h>
+void main(){
+    int ageA,ageB,ageC;
+    scanf("%d %d %d",&ageA,&ageB,&ageC);
+    printf("%d\n%d\n%d",ageA,ageB,ageC);
+}
+OUTPUT:
+18
+21
+25
+18
+21
+25
+
+
+
+
+/*
+    hello world program
+    placement training
+    24-12-2025
+*/
+#include<stdio.h>
+#define PI 3.14
+int N=10; //global var
+int main()
+{
+    N=20;  //local
+    printf("%d",N);
+    return 0;
+}
+
+Santhosh Kumar D
+3:41 PM
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+     
+     int num1,num2,num3;
+     char ch;
+     float cgpa;
+     scanf("%d%d%d %c %f",&num1,&num3,&num2,&ch,&cgpa);
+     printf("%d %d %d",num1,num2,num3);
+     printf("char is %c",ch);
+     printf("Float is %f",cgpa);
+     
+}
